@@ -3,6 +3,7 @@ import React from "react";
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/Comparametro'
 import Fragmento from './components/basicos/Fragmentos'
+import Aleatorio from "./components/Aleatorio";
 
 export default _ => {/*o underline simboliza a variavel e a arrow function pode ficar no lugar da function*/ }
 <div id='app'>
@@ -14,4 +15,5 @@ export default _ => {/*o underline simboliza a variavel e a arrow function pode 
         subtitulo="interessante"
         nota1={8} />
     <Fragmento />
+    <Aleatorio min='1' max='10'/>
 </div>
